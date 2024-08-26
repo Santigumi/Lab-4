@@ -1,0 +1,26 @@
+{
+  "name": "lab_4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "start-home": "live-server ./home-page --port=3000",
+    "start-admin": "live-server ./admin-page --port=3001",
+    "start-login": "live-server ./login-page --port=3002",
+    "start-signin": "live-server ./signin-page --port=3003",
+    "start-post": "live-server ./post-page --port=3004"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "nodemon": "^3.1.4",
+    "serve": "^14.2.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

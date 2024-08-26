@@ -1,0 +1,2 @@
+Hola profe, para que el lab funcione debes hacerle los npm run start que hay en el package.json para que las páginas existan, después puedes 
+cerrarlas (deberías) y dejar solo la admin y el home page.

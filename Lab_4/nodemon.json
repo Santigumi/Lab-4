@@ -1,0 +1,5 @@
+{
+    "watch": ["server/index.js"],
+    "ignore": ["admin-page", "home-page", "login-page", "post-page", "signin-page"],
+    "exec": "node server/index.js"
+  }
